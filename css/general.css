@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.hero-header {
+    background: linear-gradient(319.26deg, #FEEFC7 -2.44%, #E3F1E7 75.19%);
+}
+
+.background-wrapper {
+    width: 100%;
+    padding-bottom: 0;
+    background: linear-gradient(319.26deg, #FEEFC7 -2.44%, #E3F1E7 75.19%);
+    padding-top: 20px;
+}

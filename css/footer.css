@@ -1,0 +1,17 @@
+.footer-content p {
+    margin-bottom: 15px;
+}
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.footer {
+    text-align: left;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8f8f8;
+}

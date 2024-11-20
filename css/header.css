@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: auto;
+    margin: 1rem 25rem;
+    height: 50%;
+}
+
+.secondary-image {
+    margin-top: 5px;
+}
+
+.app-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-links span {
+    font-size: 0.9rem;
+    color: #787F88;
+}
+
+.app-badges {
+    display: flex;
+    gap: 10px;
+}
+
+.badge {
+    width: 32px;
+    height: 32px;
+    background: #1E1F23;
+    border-radius: 6px;
+}
+
+.apple-badge {
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.apple-badge:hover {
+    transform: scale(1.05);
+}
+
+.playstore-badge {
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.playstore-badge:hover {
+    transform: scale(1.05);
+}
+
+/* For Mobile Screens */
+@media (max-width: 600px) {
+    .app-links span {
+        display: none;
+    }
+
+    header {
+        margin: 1rem 2rem;
+    }
+}
+
+/* For Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1rem 4rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

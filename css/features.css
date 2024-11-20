@@ -1,0 +1,105 @@
+.featured-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.feature p {
+    margin: 0;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #787F88;
+}
+
+.feature img {
+    margin-right: 15px;
+    width: 100px;
+    height: 80px;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    max-width: 300px;
+}
+
+.features {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    gap: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.why-bright h2 span {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #13132D;
+    font-family: Gilroy, sans-serif;
+}
+
+.why-bright h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #13132D;
+    font-size: 4rem;
+}
+
+.why-bright {
+    text-align: center;
+    padding: 50px 20px;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .feature p {
+        font-size: 0.8rem;
+        color: #787F88;
+    }
+
+    .features {
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .featuredCompany img {
+        max-width: 400px;
+        height: auto;
+        width: 150%;
+    }
+
+    .why-bright h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .feature p {
+        font-size: 1rem;
+        color: #787F88;
+    }
+
+    .features {
+        align-items: flex-start;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1025px) {
+    .why-bright a {
+        display: none;
+    }
+}
